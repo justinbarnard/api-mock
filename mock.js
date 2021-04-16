@@ -1,7 +1,7 @@
 // Mock api data will be housed here
 
 const BODYRESPONSE = {
-    instance_url: "www.test.com",
+    instance_url: "localhost:8080/mock",
     access_token: "123abc",
 };
 
@@ -12,7 +12,11 @@ KNOWLEDGEIDS_BODY = {
     ]
 };
 
-ARTICLE_RESPONSE = { "Title": "Sample Article Title | Mock URL"};
+ARTICLE_RESPONSE = { 
+    "Language": "EN",
+    "Title": "Sample Article Title",
+    "UrlName": "Something"
+};
 
 module.exports = {
     MOCKS: {
